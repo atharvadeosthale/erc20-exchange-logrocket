@@ -14,3 +14,52 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home__button {
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.exchange__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.exchange__textBox {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.exchange__button {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #2ecc71;
+  background-color: #2ecc71;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
